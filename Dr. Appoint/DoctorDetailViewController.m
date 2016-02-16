@@ -7,8 +7,11 @@
 //
 
 #import "DoctorDetailViewController.h"
-
-@interface DoctorDetailViewController ()
+#import "CustomTableViewCell.h"
+@interface DoctorDetailViewController (){
+    NSMutableArray *docArray;
+}
+@property (weak, nonatomic) IBOutlet UITableView *tbl_view;
 
 @end
 
@@ -16,14 +19,45 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+
     // Do any additional setup after loading the view.
 }
-
+-(void)viewWillAppear:(BOOL)animated{
+    docArray=[[NSMutableArray alloc]init];
+    PFQuery *pwdQuery = [PFQuery queryWithClassName:@"Doctors"];
+    [pwdQuery whereKey:@"Specialization" equalTo:_specialization];
+    [pwdQuery findObjectsInBackgroundWithBlock:^(NSArray * _Nullable objects, NSError * _Nullable error) {
+        if (!error) {
+            docArray=[NSMutableArray arrayWithArray:objects];
+            
+            NSLog(@"got the objects %@",docArray);
+            [_tbl_view reloadData];
+        }else{
+            NSLog(@"failure");
+        }
+       
+    }];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+     NSLog(@"%d",docArray.count);
+    return [docArray count];
+   
+}
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    CustomTableViewCell *cell=[tableView dequeueReusableCellWithIdentifier:@"cell"];
+    cell.lbl_name.text=[docArray[indexPath.row] objectForKey:@"Name"];
+    cell.lbl_address.text=[docArray[indexPath.row] objectForKey:@"Address"];
+    PFFile *file = [docArray[indexPath.row] objectForKey:@"Image"];
+    cell.img_view.image=[UIImage imageWithData:[file getData]];
+    NSLog(@"%d",indexPath.row);
+    return cell;
+    
+}
 /*
 #pragma mark - Navigation
 

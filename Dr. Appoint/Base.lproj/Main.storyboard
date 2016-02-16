@@ -586,28 +586,74 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="DAx-4M-gHL">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="88" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="DAx-4M-gHL">
                                 <rect key="frame" x="0.0" y="20" width="320" height="568"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="cell" selectionStyle="default" indentationWidth="10" id="T3b-FD-6MU" customClass="CustomTableViewCell">
-                                        <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="cell" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="88" id="T3b-FD-6MU" customClass="CustomTableViewCell">
+                                        <rect key="frame" x="0.0" y="28" width="320" height="88"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="T3b-FD-6MU" id="tXV-Hv-qt1">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="87.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ukA-q9-D7i">
+                                                    <rect key="frame" x="125" y="8.5" width="42.5" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pgh-70-V4P">
+                                                    <rect key="frame" x="125" y="46" width="144" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="C0a-1q-UWS"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="x7q-ch-Smq">
+                                                    <rect key="frame" x="8" y="7" width="89" height="72"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="71.5" id="Wx8-1M-03j"/>
+                                                        <constraint firstAttribute="width" constant="89" id="fgr-uh-Aha"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailingMargin" secondItem="Pgh-70-V4P" secondAttribute="trailing" constant="43" id="175-uf-UT6"/>
+                                                <constraint firstItem="Pgh-70-V4P" firstAttribute="leading" secondItem="ukA-q9-D7i" secondAttribute="leading" id="3H0-d5-V3L"/>
+                                                <constraint firstItem="Pgh-70-V4P" firstAttribute="leading" secondItem="x7q-ch-Smq" secondAttribute="trailing" constant="28" id="4UK-w0-88T"/>
+                                                <constraint firstItem="x7q-ch-Smq" firstAttribute="centerY" secondItem="tXV-Hv-qt1" secondAttribute="centerY" id="OWx-5e-NVb"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="Pgh-70-V4P" secondAttribute="bottom" constant="12.5" id="dyE-vd-iUs"/>
+                                                <constraint firstItem="Pgh-70-V4P" firstAttribute="top" secondItem="ukA-q9-D7i" secondAttribute="bottom" constant="17" id="e1p-SA-pDy"/>
+                                                <constraint firstItem="x7q-ch-Smq" firstAttribute="leading" secondItem="tXV-Hv-qt1" secondAttribute="leadingMargin" id="giJ-hq-XBj"/>
+                                            </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="1" green="0.1810802574" blue="0.19660369699999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <outlet property="img_view" destination="x7q-ch-Smq" id="1q8-NL-G9K"/>
+                                            <outlet property="lbl_address" destination="Pgh-70-V4P" id="0Xj-Zo-4fd"/>
+                                            <outlet property="lbl_name" destination="ukA-q9-D7i" id="FrC-cn-cjk"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="mND-p5-m3b" id="S9W-Xi-XqG"/>
+                                    <outlet property="delegate" destination="mND-p5-m3b" id="7UI-De-0QL"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="tbl_view" destination="DAx-4M-gHL" id="FgX-Dj-UEG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="adk-I9-Mh7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2282" y="-744"/>
+            <point key="canvasLocation" x="2241" y="-429"/>
         </scene>
         <!--Date View Controller-->
         <scene sceneID="dHg-dd-RVi">

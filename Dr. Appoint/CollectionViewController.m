@@ -69,6 +69,36 @@
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
     NSLog(@"2222");
     DoctorDetailViewController *detail=[self.storyboard instantiateViewControllerWithIdentifier:@"doctorDetail"];
+    switch (indexPath.row) {
+        case 0:{
+            [detail setSpecialization:@"Cardiologist"];
+        }
+            break;
+        case 1:{
+            [detail setSpecialization:@"Dentist"];
+        }
+            break;
+        case 2:{
+            [detail setSpecialization:@"Dermatologist"];
+        }
+            break;
+        case 3:{
+            [detail setSpecialization:@"Gynecologist"];
+        }
+            break;
+        case 4:{
+            [detail setSpecialization:@"Ophthalmologist"];
+        }
+            break;
+        case 5:{
+            [detail setSpecialization:@"Psychologist"];
+        }
+            break;
+    
+        default:
+            break;
+    }
+
     
     [self.navigationController pushViewController:detail animated:YES];
     

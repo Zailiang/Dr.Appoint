@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DoctorDetailViewController : UIViewController
+@interface DoctorDetailViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+@property(strong,nonatomic)NSString *specialization;
 
 @end
