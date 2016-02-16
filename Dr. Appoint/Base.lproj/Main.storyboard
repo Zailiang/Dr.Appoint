@@ -524,7 +524,7 @@
         <!--Collection View Controller-->
         <scene sceneID="Jqa-QP-D1o">
             <objects>
-                <viewController id="n52-kz-auB" customClass="CollectionViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="collectionView" id="n52-kz-auB" customClass="CollectionViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kCf-1U-Awn"/>
                         <viewControllerLayoutGuide type="bottom" id="Zox-Ka-rLS"/>

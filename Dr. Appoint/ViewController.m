@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "DoctRgstViewController.h"
 #import "PatientRgsViewController.h"
-
+#import "CollectionViewController.h"
 @interface ViewController ()
 
 - (IBAction)btn_DocRgt:(id)sender;
@@ -74,6 +74,8 @@
             if (!error) {
                 if ([self.txtField_password.text isEqualToString:[[objects lastObject] valueForKey:@"Password"]]) {
                     NSLog(@"successful");
+                    CollectionViewController *cvc=[self.storyboard instantiateViewControllerWithIdentifier:@"collectionView"];
+                    [self.navigationController pushViewController:cvc animated:YES];
                 }else{
                     NSLog(@"failure");
                 }
