@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D50674DB1C7263E800678CDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D50674DA1C7263E800678CDC /* main.m */; };
+		D50674DE1C7263E800678CDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D50674DD1C7263E800678CDC /* AppDelegate.m */; };
+		D50674E11C7263E800678CDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D50674E01C7263E800678CDC /* ViewController.m */; };
+		D50674E41C7263E800678CDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50674E21C7263E800678CDC /* Main.storyboard */; };
+		D50674E61C7263E800678CDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D50674E51C7263E800678CDC /* Assets.xcassets */; };
+		D50674E91C7263E800678CDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50674E71C7263E800678CDC /* LaunchScreen.storyboard */; };
+		D50674F21C726D0D00678CDC /* DoctRgstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D50674F11C726D0D00678CDC /* DoctRgstViewController.m */; };
+		D50674FB1C728CB500678CDC /* PatientRgsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D50674FA1C728CB500678CDC /* PatientRgsViewController.m */; };
+		D56E05381C72D8F100B17957 /* yes.png in Resources */ = {isa = PBXBuildFile; fileRef = D56E05371C72D8F100B17957 /* yes.png */; };
+		D56E053A1C72D90200B17957 /* no.png in Resources */ = {isa = PBXBuildFile; fileRef = D56E05391C72D90200B17957 /* no.png */; };
+		D56E053D1C738A4B00B17957 /* dateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D56E053C1C738A4B00B17957 /* dateViewController.m */; };
+		D56E05411C738AEF00B17957 /* check_sel.png in Resources */ = {isa = PBXBuildFile; fileRef = D56E053F1C738AEF00B17957 /* check_sel.png */; };
+		D56E05421C738AEF00B17957 /* check_unsel.png in Resources */ = {isa = PBXBuildFile; fileRef = D56E05401C738AEF00B17957 /* check_unsel.png */; };
+		F86CB2197B175F9D56CAD672 /* libPods-Dr. Appoint.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F7D9DEA7C71D5E96234231 /* libPods-Dr. Appoint.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26F7D9DEA7C71D5E96234231 /* libPods-Dr. Appoint.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Dr. Appoint.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35DB4756436A199CC3D850B2 /* Pods-Dr. Appoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dr. Appoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dr. Appoint/Pods-Dr. Appoint.release.xcconfig"; sourceTree = "<group>"; };
+		D50674D61C7263E800678CDC /* Dr. Appoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dr. Appoint.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D50674DA1C7263E800678CDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D50674DC1C7263E800678CDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D50674DD1C7263E800678CDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D50674DF1C7263E800678CDC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D50674E01C7263E800678CDC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D50674E31C7263E800678CDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D50674E51C7263E800678CDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D50674E81C7263E800678CDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D50674EA1C7263E800678CDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D50674F01C726D0D00678CDC /* DoctRgstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoctRgstViewController.h; sourceTree = "<group>"; };
+		D50674F11C726D0D00678CDC /* DoctRgstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctRgstViewController.m; sourceTree = "<group>"; };
+		D50674F91C728CB500678CDC /* PatientRgsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientRgsViewController.h; sourceTree = "<group>"; };
+		D50674FA1C728CB500678CDC /* PatientRgsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientRgsViewController.m; sourceTree = "<group>"; };
+		D506751F1C72BC8400678CDC /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		D56E05371C72D8F100B17957 /* yes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yes.png; sourceTree = "<group>"; };
+		D56E05391C72D90200B17957 /* no.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = no.png; sourceTree = "<group>"; };
+		D56E053B1C738A4B00B17957 /* dateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dateViewController.h; sourceTree = "<group>"; };
+		D56E053C1C738A4B00B17957 /* dateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dateViewController.m; sourceTree = "<group>"; };
+		D56E053F1C738AEF00B17957 /* check_sel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check_sel.png; sourceTree = "<group>"; };
+		D56E05401C738AEF00B17957 /* check_unsel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check_unsel.png; sourceTree = "<group>"; };
+		F2B290F7ED63D7FD0AE259C0 /* Pods-Dr. Appoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dr. Appoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dr. Appoint/Pods-Dr. Appoint.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D50674D31C7263E800678CDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F86CB2197B175F9D56CAD672 /* libPods-Dr. Appoint.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A7EDDBF03051681F9DC6C75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26F7D9DEA7C71D5E96234231 /* libPods-Dr. Appoint.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E83836527BCD007D44F375B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2B290F7ED63D7FD0AE259C0 /* Pods-Dr. Appoint.debug.xcconfig */,
+				35DB4756436A199CC3D850B2 /* Pods-Dr. Appoint.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D50674CD1C7263E800678CDC = {
+			isa = PBXGroup;
+			children = (
+				D50674D81C7263E800678CDC /* Dr. Appoint */,
+				D50674D71C7263E800678CDC /* Products */,
+				8E83836527BCD007D44F375B /* Pods */,
+				6A7EDDBF03051681F9DC6C75 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D50674D71C7263E800678CDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D50674D61C7263E800678CDC /* Dr. Appoint.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D50674D81C7263E800678CDC /* Dr. Appoint */ = {
+			isa = PBXGroup;
+			children = (
+				D506751F1C72BC8400678CDC /* PrefixHeader.pch */,
+				D50674DC1C7263E800678CDC /* AppDelegate.h */,
+				D50674DD1C7263E800678CDC /* AppDelegate.m */,
+				D50674DF1C7263E800678CDC /* ViewController.h */,
+				D50674E01C7263E800678CDC /* ViewController.m */,
+				D50674E21C7263E800678CDC /* Main.storyboard */,
+				D56E053E1C738A5E00B17957 /* Doctors */,
+				D50674F91C728CB500678CDC /* PatientRgsViewController.h */,
+				D50674FA1C728CB500678CDC /* PatientRgsViewController.m */,
+				D56E053F1C738AEF00B17957 /* check_sel.png */,
+				D56E05401C738AEF00B17957 /* check_unsel.png */,
+				D50674E51C7263E800678CDC /* Assets.xcassets */,
+				D50674E71C7263E800678CDC /* LaunchScreen.storyboard */,
+				D50674EA1C7263E800678CDC /* Info.plist */,
+				D56E05391C72D90200B17957 /* no.png */,
+				D56E05371C72D8F100B17957 /* yes.png */,
+				D50674D91C7263E800678CDC /* Supporting Files */,
+			);
+			path = "Dr. Appoint";
+			sourceTree = "<group>";
+		};
+		D50674D91C7263E800678CDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D50674DA1C7263E800678CDC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D56E053E1C738A5E00B17957 /* Doctors */ = {
+			isa = PBXGroup;
+			children = (
+				D56E053B1C738A4B00B17957 /* dateViewController.h */,
+				D56E053C1C738A4B00B17957 /* dateViewController.m */,
+				D50674F01C726D0D00678CDC /* DoctRgstViewController.h */,
+				D50674F11C726D0D00678CDC /* DoctRgstViewController.m */,
+			);
+			name = Doctors;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D50674D51C7263E800678CDC /* Dr. Appoint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D50674ED1C7263E800678CDC /* Build configuration list for PBXNativeTarget "Dr. Appoint" */;
+			buildPhases = (
+				B26D4CF0F4A413F4696CBB11 /* Check Pods Manifest.lock */,
+				D50674D21C7263E800678CDC /* Sources */,
+				D50674D31C7263E800678CDC /* Frameworks */,
+				D50674D41C7263E800678CDC /* Resources */,
+				913246A150DFF461F2351D1F /* Embed Pods Frameworks */,
+				BB16F7B1670778ECAA915A87 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dr. Appoint";
+			productName = "Dr. Appoint";
+			productReference = D50674D61C7263E800678CDC /* Dr. Appoint.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D50674CE1C7263E800678CDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Zailiang Yu";
+				TargetAttributes = {
+					D50674D51C7263E800678CDC = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = D50674D11C7263E800678CDC /* Build configuration list for PBXProject "Dr. Appoint" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D50674CD1C7263E800678CDC;
+			productRefGroup = D50674D71C7263E800678CDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D50674D51C7263E800678CDC /* Dr. Appoint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D50674D41C7263E800678CDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D56E05421C738AEF00B17957 /* check_unsel.png in Resources */,
+				D56E053A1C72D90200B17957 /* no.png in Resources */,
+				D50674E91C7263E800678CDC /* LaunchScreen.storyboard in Resources */,
+				D50674E61C7263E800678CDC /* Assets.xcassets in Resources */,
+				D56E05411C738AEF00B17957 /* check_sel.png in Resources */,
+				D50674E41C7263E800678CDC /* Main.storyboard in Resources */,
+				D56E05381C72D8F100B17957 /* yes.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		913246A150DFF461F2351D1F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dr. Appoint/Pods-Dr. Appoint-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B26D4CF0F4A413F4696CBB11 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BB16F7B1670778ECAA915A87 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dr. Appoint/Pods-Dr. Appoint-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D50674D21C7263E800678CDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50674F21C726D0D00678CDC /* DoctRgstViewController.m in Sources */,
+				D50674FB1C728CB500678CDC /* PatientRgsViewController.m in Sources */,
+				D50674E11C7263E800678CDC /* ViewController.m in Sources */,
+				D50674DE1C7263E800678CDC /* AppDelegate.m in Sources */,
+				D56E053D1C738A4B00B17957 /* dateViewController.m in Sources */,
+				D50674DB1C7263E800678CDC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D50674E21C7263E800678CDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D50674E31C7263E800678CDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D50674E71C7263E800678CDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D50674E81C7263E800678CDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D50674EB1C7263E800678CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dr. Appoint/PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D50674EC1C7263E800678CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dr. Appoint/PrefixHeader.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D50674EE1C7263E800678CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2B290F7ED63D7FD0AE259C0 /* Pods-Dr. Appoint.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Dr. Appoint/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "liang.Dr--Appoint";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D50674EF1C7263E800678CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35DB4756436A199CC3D850B2 /* Pods-Dr. Appoint.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Dr. Appoint/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "liang.Dr--Appoint";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D50674D11C7263E800678CDC /* Build configuration list for PBXProject "Dr. Appoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D50674EB1C7263E800678CDC /* Debug */,
+				D50674EC1C7263E800678CDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D50674ED1C7263E800678CDC /* Build configuration list for PBXNativeTarget "Dr. Appoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D50674EE1C7263E800678CDC /* Debug */,
+				D50674EF1C7263E800678CDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D50674CE1C7263E800678CDC /* Project object */;
+}
