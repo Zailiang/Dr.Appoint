@@ -150,7 +150,7 @@
 
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info{
     
-    UIImage *img = info[UIImagePickerControllerOriginalImage];
+    UIImage *img = info[UIImagePickerControllerEditedImage];
     
     [self.imageView setImage:img];
     

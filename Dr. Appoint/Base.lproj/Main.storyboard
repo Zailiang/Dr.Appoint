@@ -57,6 +57,9 @@
                                             <rect key="frame" x="16" y="7" width="45" height="30"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <state key="normal" title="Log-in"/>
+                                            <connections>
+                                                <action selector="btn_Login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KDc-yI-N4Y"/>
+                                            </connections>
                                         </button>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="33L-9W-I5e"/>
@@ -84,6 +87,8 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="mySwitch" destination="eG3-rH-fYs" id="0bK-JJ-tJ6"/>
+                        <outlet property="txtField_password" destination="poa-ed-k7s" id="Z8U-aE-z4p"/>
+                        <outlet property="txtField_user" destination="lTD-bH-vty" id="hIG-zL-s9a"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
