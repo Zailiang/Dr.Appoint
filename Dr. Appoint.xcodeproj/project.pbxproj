@@ -17,6 +17,7 @@
 		15F1F9EB1C73CAC0001A72BF /* Gynecologist.png in Resources */ = {isa = PBXBuildFile; fileRef = 15F1F9E51C73CAC0001A72BF /* Gynecologist.png */; };
 		15F1F9EC1C73CAC0001A72BF /* Ophthalmologist.png in Resources */ = {isa = PBXBuildFile; fileRef = 15F1F9E61C73CAC0001A72BF /* Ophthalmologist.png */; };
 		15F1F9ED1C73CAC0001A72BF /* Psychologist.png in Resources */ = {isa = PBXBuildFile; fileRef = 15F1F9E71C73CAC0001A72BF /* Psychologist.png */; };
+		15F1FA631C752277001A72BF /* unknownavatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 15F1FA621C752277001A72BF /* unknownavatar.png */; };
 		D50674DB1C7263E800678CDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D50674DA1C7263E800678CDC /* main.m */; };
 		D50674DE1C7263E800678CDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D50674DD1C7263E800678CDC /* AppDelegate.m */; };
 		D50674E11C7263E800678CDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D50674E01C7263E800678CDC /* ViewController.m */; };
@@ -31,7 +32,6 @@
 		D56E05411C738AEF00B17957 /* check_sel.png in Resources */ = {isa = PBXBuildFile; fileRef = D56E053F1C738AEF00B17957 /* check_sel.png */; };
 		D56E05421C738AEF00B17957 /* check_unsel.png in Resources */ = {isa = PBXBuildFile; fileRef = D56E05401C738AEF00B17957 /* check_unsel.png */; };
 		D56E06321C744B0F00B17957 /* DoctorDescriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D56E06311C744B0F00B17957 /* DoctorDescriptionViewController.m */; };
-		D56E06341C7450BA00B17957 /* unknownavatar.png in Resources */ = {isa = PBXBuildFile; fileRef = D56E06331C7450BA00B17957 /* unknownavatar.png */; };
 		D56E06361C74535F00B17957 /* Lawrence-General-Hospital-Room.png in Resources */ = {isa = PBXBuildFile; fileRef = D56E06351C74535F00B17957 /* Lawrence-General-Hospital-Room.png */; };
 		D56E06391C74581700B17957 /* AppointmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D56E06381C74581700B17957 /* AppointmentViewController.m */; };
 		F86CB2197B175F9D56CAD672 /* libPods-Dr. Appoint.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F7D9DEA7C71D5E96234231 /* libPods-Dr. Appoint.a */; };
@@ -52,6 +52,7 @@
 		15F1F9E51C73CAC0001A72BF /* Gynecologist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gynecologist.png; sourceTree = "<group>"; };
 		15F1F9E61C73CAC0001A72BF /* Ophthalmologist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ophthalmologist.png; sourceTree = "<group>"; };
 		15F1F9E71C73CAC0001A72BF /* Psychologist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Psychologist.png; sourceTree = "<group>"; };
+		15F1FA621C752277001A72BF /* unknownavatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unknownavatar.png; sourceTree = "<group>"; };
 		26F7D9DEA7C71D5E96234231 /* libPods-Dr. Appoint.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Dr. Appoint.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35DB4756436A199CC3D850B2 /* Pods-Dr. Appoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dr. Appoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dr. Appoint/Pods-Dr. Appoint.release.xcconfig"; sourceTree = "<group>"; };
 		D50674D61C7263E800678CDC /* Dr. Appoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dr. Appoint.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,7 +78,6 @@
 		D56E05401C738AEF00B17957 /* check_unsel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check_unsel.png; sourceTree = "<group>"; };
 		D56E06301C744B0F00B17957 /* DoctorDescriptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoctorDescriptionViewController.h; sourceTree = "<group>"; };
 		D56E06311C744B0F00B17957 /* DoctorDescriptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctorDescriptionViewController.m; sourceTree = "<group>"; };
-		D56E06331C7450BA00B17957 /* unknownavatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = unknownavatar.png; path = "../../Downloads/Project_Hospital 2/Project_Hospital/unknownavatar.png"; sourceTree = "<group>"; };
 		D56E06351C74535F00B17957 /* Lawrence-General-Hospital-Room.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Lawrence-General-Hospital-Room.png"; path = "../../Downloads/Lawrence-General-Hospital-Room.png"; sourceTree = "<group>"; };
 		D56E06371C74581700B17957 /* AppointmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppointmentViewController.h; sourceTree = "<group>"; };
 		D56E06381C74581700B17957 /* AppointmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppointmentViewController.m; sourceTree = "<group>"; };
@@ -160,7 +160,7 @@
 				D50674E01C7263E800678CDC /* ViewController.m */,
 				15F1F9E21C73CAC0001A72BF /* Cardiologist.png */,
 				15F1F9E31C73CAC0001A72BF /* Dentist.png */,
-				D56E06331C7450BA00B17957 /* unknownavatar.png */,
+				15F1FA621C752277001A72BF /* unknownavatar.png */,
 				15F1F9E41C73CAC0001A72BF /* Dermatologist.png */,
 				D56E06351C74535F00B17957 /* Lawrence-General-Hospital-Room.png */,
 				15F1F9E51C73CAC0001A72BF /* Gynecologist.png */,
@@ -265,11 +265,11 @@
 				15F1F9EC1C73CAC0001A72BF /* Ophthalmologist.png in Resources */,
 				15F1F9EA1C73CAC0001A72BF /* Dermatologist.png in Resources */,
 				D56E05421C738AEF00B17957 /* check_unsel.png in Resources */,
+				15F1FA631C752277001A72BF /* unknownavatar.png in Resources */,
 				15F1F9E91C73CAC0001A72BF /* Dentist.png in Resources */,
 				D56E053A1C72D90200B17957 /* no.png in Resources */,
 				D50674E91C7263E800678CDC /* LaunchScreen.storyboard in Resources */,
 				15F1F9EB1C73CAC0001A72BF /* Gynecologist.png in Resources */,
-				D56E06341C7450BA00B17957 /* unknownavatar.png in Resources */,
 				D56E06361C74535F00B17957 /* Lawrence-General-Hospital-Room.png in Resources */,
 				15F1F9ED1C73CAC0001A72BF /* Psychologist.png in Resources */,
 				D50674E61C7263E800678CDC /* Assets.xcassets in Resources */,
