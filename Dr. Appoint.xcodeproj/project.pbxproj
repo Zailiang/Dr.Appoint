@@ -30,6 +30,9 @@
 		D56E053D1C738A4B00B17957 /* dateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D56E053C1C738A4B00B17957 /* dateViewController.m */; };
 		D56E05411C738AEF00B17957 /* check_sel.png in Resources */ = {isa = PBXBuildFile; fileRef = D56E053F1C738AEF00B17957 /* check_sel.png */; };
 		D56E05421C738AEF00B17957 /* check_unsel.png in Resources */ = {isa = PBXBuildFile; fileRef = D56E05401C738AEF00B17957 /* check_unsel.png */; };
+		D56E06321C744B0F00B17957 /* DoctorDescriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D56E06311C744B0F00B17957 /* DoctorDescriptionViewController.m */; };
+		D56E06341C7450BA00B17957 /* unknownavatar.png in Resources */ = {isa = PBXBuildFile; fileRef = D56E06331C7450BA00B17957 /* unknownavatar.png */; };
+		D56E06361C74535F00B17957 /* Lawrence-General-Hospital-Room.png in Resources */ = {isa = PBXBuildFile; fileRef = D56E06351C74535F00B17957 /* Lawrence-General-Hospital-Room.png */; };
 		F86CB2197B175F9D56CAD672 /* libPods-Dr. Appoint.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F7D9DEA7C71D5E96234231 /* libPods-Dr. Appoint.a */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +74,10 @@
 		D56E053C1C738A4B00B17957 /* dateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dateViewController.m; sourceTree = "<group>"; };
 		D56E053F1C738AEF00B17957 /* check_sel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check_sel.png; sourceTree = "<group>"; };
 		D56E05401C738AEF00B17957 /* check_unsel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check_unsel.png; sourceTree = "<group>"; };
+		D56E06301C744B0F00B17957 /* DoctorDescriptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoctorDescriptionViewController.h; sourceTree = "<group>"; };
+		D56E06311C744B0F00B17957 /* DoctorDescriptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctorDescriptionViewController.m; sourceTree = "<group>"; };
+		D56E06331C7450BA00B17957 /* unknownavatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = unknownavatar.png; path = "../../Downloads/Project_Hospital 2/Project_Hospital/unknownavatar.png"; sourceTree = "<group>"; };
+		D56E06351C74535F00B17957 /* Lawrence-General-Hospital-Room.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Lawrence-General-Hospital-Room.png"; path = "../../Downloads/Lawrence-General-Hospital-Room.png"; sourceTree = "<group>"; };
 		F2B290F7ED63D7FD0AE259C0 /* Pods-Dr. Appoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dr. Appoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dr. Appoint/Pods-Dr. Appoint.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,12 +98,14 @@
 			children = (
 				15F1F9DF1C73C9FA001A72BF /* CustomTableViewCell.h */,
 				15F1F9E01C73C9FA001A72BF /* CustomTableViewCell.m */,
-				15F1F9DC1C73C994001A72BF /* DoctorDetailViewController.h */,
-				15F1F9DD1C73C994001A72BF /* DoctorDetailViewController.m */,
 				15F1F9D81C73C906001A72BF /* customCollectionViewCell.h */,
 				15F1F9D91C73C906001A72BF /* customCollectionViewCell.m */,
 				15F1F9D51C73C8A4001A72BF /* CollectionViewController.h */,
 				15F1F9D61C73C8A4001A72BF /* CollectionViewController.m */,
+				15F1F9DC1C73C994001A72BF /* DoctorDetailViewController.h */,
+				15F1F9DD1C73C994001A72BF /* DoctorDetailViewController.m */,
+				D56E06301C744B0F00B17957 /* DoctorDescriptionViewController.h */,
+				D56E06311C744B0F00B17957 /* DoctorDescriptionViewController.m */,
 			);
 			name = collectionAndTableView;
 			sourceTree = "<group>";
@@ -146,7 +155,9 @@
 				D50674E01C7263E800678CDC /* ViewController.m */,
 				15F1F9E21C73CAC0001A72BF /* Cardiologist.png */,
 				15F1F9E31C73CAC0001A72BF /* Dentist.png */,
+				D56E06331C7450BA00B17957 /* unknownavatar.png */,
 				15F1F9E41C73CAC0001A72BF /* Dermatologist.png */,
+				D56E06351C74535F00B17957 /* Lawrence-General-Hospital-Room.png */,
 				15F1F9E51C73CAC0001A72BF /* Gynecologist.png */,
 				15F1F9E61C73CAC0001A72BF /* Ophthalmologist.png */,
 				15F1F9E71C73CAC0001A72BF /* Psychologist.png */,
@@ -253,6 +264,8 @@
 				D56E053A1C72D90200B17957 /* no.png in Resources */,
 				D50674E91C7263E800678CDC /* LaunchScreen.storyboard in Resources */,
 				15F1F9EB1C73CAC0001A72BF /* Gynecologist.png in Resources */,
+				D56E06341C7450BA00B17957 /* unknownavatar.png in Resources */,
+				D56E06361C74535F00B17957 /* Lawrence-General-Hospital-Room.png in Resources */,
 				15F1F9ED1C73CAC0001A72BF /* Psychologist.png in Resources */,
 				D50674E61C7263E800678CDC /* Assets.xcassets in Resources */,
 				D56E05411C738AEF00B17957 /* check_sel.png in Resources */,
@@ -327,6 +340,7 @@
 				D50674DB1C7263E800678CDC /* main.m in Sources */,
 				15F1F9E11C73C9FA001A72BF /* CustomTableViewCell.m in Sources */,
 				15F1F9DA1C73C906001A72BF /* customCollectionViewCell.m in Sources */,
+				D56E06321C744B0F00B17957 /* DoctorDescriptionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

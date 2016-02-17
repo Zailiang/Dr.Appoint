@@ -181,7 +181,7 @@
 
         }
     }else if(textField == self.txtField_time){
-        arr_picker = [NSMutableArray arrayWithObjects:@"Morning",@"Evening",nil];
+        arr_picker = [NSMutableArray arrayWithObjects:@"Morning",@"Afternoon",nil];
         [self.pickerView_Qual reloadAllComponents];
         [self.pickerView_Qual setHidden:NO];
     }

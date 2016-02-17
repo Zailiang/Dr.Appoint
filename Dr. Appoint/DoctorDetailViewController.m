@@ -8,8 +8,11 @@
 
 #import "DoctorDetailViewController.h"
 #import "CustomTableViewCell.h"
+#import "DoctorDescriptionViewController.h"
+
 @interface DoctorDetailViewController (){
     NSMutableArray *docArray;
+    NSArray *tempArr;
 }
 @property (weak, nonatomic) IBOutlet UITableView *tbl_view;
 
@@ -58,6 +61,17 @@
     return cell;
     
 }
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    DoctorDescriptionViewController *controller = [self.storyboard instantiateViewControllerWithIdentifier:@"DoctorDescriptionViewController"];
+    tempArr = [NSArray arrayWithObject:docArray[indexPath.row]];
+    [controller setDoctorArrTemp:tempArr];
+    [controller setImgAvatar:[UIImage imageWithData:[[docArray[indexPath.row] valueForKey:@"Image"] getData]]];
+    
+    [self.navigationController pushViewController:controller animated:YES];
+    
+}
+
 /*
 #pragma mark - Navigation
 
