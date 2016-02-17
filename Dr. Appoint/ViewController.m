@@ -10,6 +10,8 @@
 #import "DoctRgstViewController.h"
 #import "PatientRgsViewController.h"
 #import "CollectionViewController.h"
+#import "AppDelegate.h"
+
 @interface ViewController ()
 
 - (IBAction)btn_DocRgt:(id)sender;
@@ -74,6 +76,10 @@
             if (!error) {
                 if ([self.txtField_password.text isEqualToString:[[objects lastObject] valueForKey:@"Password"]]) {
                     NSLog(@"successful");
+                    
+                    AppDelegate *mydelegate = [[UIApplication sharedApplication] delegate];
+                    mydelegate.customerMobile =self.txtField_user.text;
+                    
                     CollectionViewController *cvc=[self.storyboard instantiateViewControllerWithIdentifier:@"collectionView"];
                     [self.navigationController pushViewController:cvc animated:YES];
                 }else{

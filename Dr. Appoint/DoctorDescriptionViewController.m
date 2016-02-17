@@ -7,6 +7,7 @@
 //
 
 #import "DoctorDescriptionViewController.h"
+#import "AppointmentViewController.h"
 
 @interface DoctorDescriptionViewController ()
 
@@ -44,7 +45,7 @@
     [_detailtv.layer setBorderColor:[UIColor lightGrayColor].CGColor];
     
     
-    _imgIcon.layer.cornerRadius = _imgIcon.frame.size.width / 2;
+    _imgIcon.layer.cornerRadius = _imgIcon.frame.size.width / 2.2;
     _imgIcon.clipsToBounds = YES;
     
     if (_imgAvatar) {
@@ -64,8 +65,9 @@
 
 - (IBAction)appointmentbtn_tapped:(id)sender {
     
-//    AppointmentController *controller = [self.storyboard instantiateViewControllerWithIdentifier:@"appointmentvc"];
-//    [self.navigationController pushViewController:controller animated:YES];
+    AppointmentViewController *controller = [self.storyboard instantiateViewControllerWithIdentifier:@"AppointmentViewController"];
+    [controller setArrDoctor:self.doctorArrTemp];
+    [self.navigationController pushViewController:controller animated:YES];
 }
 
 /*

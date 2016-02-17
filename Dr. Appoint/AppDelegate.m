@@ -20,7 +20,7 @@
     
     [Parse setApplicationId:@"m84xahZ5c0K2O1S3jAK8rFnY8S21A93q2XTO19B2"
                   clientKey:@"ajl1jXskBHNYdFByFgCDgtjPsaNWUVRwaiafOHGy"];
-    
+    _customerMobile = [[NSString alloc] init];
     
     return YES;
 }
