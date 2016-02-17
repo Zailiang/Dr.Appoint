@@ -34,7 +34,6 @@
 		D56E06341C7450BA00B17957 /* unknownavatar.png in Resources */ = {isa = PBXBuildFile; fileRef = D56E06331C7450BA00B17957 /* unknownavatar.png */; };
 		D56E06361C74535F00B17957 /* Lawrence-General-Hospital-Room.png in Resources */ = {isa = PBXBuildFile; fileRef = D56E06351C74535F00B17957 /* Lawrence-General-Hospital-Room.png */; };
 		D56E06391C74581700B17957 /* AppointmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D56E06381C74581700B17957 /* AppointmentViewController.m */; };
-		D56E063E1C74DD9200B17957 /* AppointTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D56E063D1C74DD9200B17957 /* AppointTableViewController.m */; };
 		F86CB2197B175F9D56CAD672 /* libPods-Dr. Appoint.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F7D9DEA7C71D5E96234231 /* libPods-Dr. Appoint.a */; };
 /* End PBXBuildFile section */
 
@@ -82,8 +81,6 @@
 		D56E06351C74535F00B17957 /* Lawrence-General-Hospital-Room.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Lawrence-General-Hospital-Room.png"; path = "../../Downloads/Lawrence-General-Hospital-Room.png"; sourceTree = "<group>"; };
 		D56E06371C74581700B17957 /* AppointmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppointmentViewController.h; sourceTree = "<group>"; };
 		D56E06381C74581700B17957 /* AppointmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppointmentViewController.m; sourceTree = "<group>"; };
-		D56E063C1C74DD9200B17957 /* AppointTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppointTableViewController.h; sourceTree = "<group>"; };
-		D56E063D1C74DD9200B17957 /* AppointTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppointTableViewController.m; sourceTree = "<group>"; };
 		F2B290F7ED63D7FD0AE259C0 /* Pods-Dr. Appoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dr. Appoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dr. Appoint/Pods-Dr. Appoint.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,8 +111,6 @@
 				D56E06311C744B0F00B17957 /* DoctorDescriptionViewController.m */,
 				D56E06371C74581700B17957 /* AppointmentViewController.h */,
 				D56E06381C74581700B17957 /* AppointmentViewController.m */,
-				D56E063C1C74DD9200B17957 /* AppointTableViewController.h */,
-				D56E063D1C74DD9200B17957 /* AppointTableViewController.m */,
 			);
 			name = collectionAndTableView;
 			sourceTree = "<group>";
@@ -348,7 +343,6 @@
 				D50674DE1C7263E800678CDC /* AppDelegate.m in Sources */,
 				15F1F9DE1C73C994001A72BF /* DoctorDetailViewController.m in Sources */,
 				D56E053D1C738A4B00B17957 /* dateViewController.m in Sources */,
-				D56E063E1C74DD9200B17957 /* AppointTableViewController.m in Sources */,
 				D50674DB1C7263E800678CDC /* main.m in Sources */,
 				15F1F9E11C73C9FA001A72BF /* CustomTableViewCell.m in Sources */,
 				15F1F9DA1C73C906001A72BF /* customCollectionViewCell.m in Sources */,
